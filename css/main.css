@@ -33,28 +33,28 @@
   overflow: hidden;
 }
 
-.agreement__label, .newsletter__input--placeholder::-webkit-input-placeholder, .header, .contacts__link, .speciality__text, .team__social-link, .clients__link, .footer__social-link, .projects__button {
+.agreement__label, .newsletter__input--placeholder::-webkit-input-placeholder, .newsletter__button, .header, .contacts__link, .speciality__text, .team__social-link, .clients__link, .footer__social-link, .projects__button {
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
           align-items: center;
 }
 
-.agreement__label, .newsletter__input--placeholder:-ms-input-placeholder, .header, .contacts__link, .speciality__text, .team__social-link, .clients__link, .footer__social-link, .projects__button {
+.agreement__label, .newsletter__input--placeholder:-ms-input-placeholder, .newsletter__button, .header, .contacts__link, .speciality__text, .team__social-link, .clients__link, .footer__social-link, .projects__button {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
       align-items: center;
 }
 
-.agreement__label, .newsletter__input--placeholder::-ms-input-placeholder, .header, .contacts__link, .speciality__text, .team__social-link, .clients__link, .footer__social-link, .projects__button {
+.agreement__label, .newsletter__input--placeholder::-ms-input-placeholder, .newsletter__button, .header, .contacts__link, .speciality__text, .team__social-link, .clients__link, .footer__social-link, .projects__button {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
       align-items: center;
 }
 
-.agreement__label, .newsletter__input--placeholder::placeholder, .header, .contacts__link, .speciality__text, .team__social-link, .clients__link, .footer__social-link, .projects__button {
+.agreement__label, .newsletter__input--placeholder::placeholder, .newsletter__button, .header, .contacts__link, .speciality__text, .team__social-link, .clients__link, .footer__social-link, .projects__button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -169,9 +169,9 @@ ul {
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
-  line-height: 23px;
-  text-align: center;
+  line-height: 1.15;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-color);
 }
 
@@ -197,7 +197,7 @@ ul {
   margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--main-text-color);
 }
@@ -255,7 +255,7 @@ ul {
 .modal__input-comment::-webkit-input-placeholder {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.15;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
@@ -263,7 +263,7 @@ ul {
 .modal__input-comment:-ms-input-placeholder {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.15;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
@@ -271,7 +271,7 @@ ul {
 .modal__input-comment::-ms-input-placeholder {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.15;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
@@ -279,7 +279,7 @@ ul {
 .modal__input-comment::placeholder {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.15;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
@@ -466,14 +466,8 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -717,8 +711,8 @@ ul {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.15;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--team-text-color);
   height: 70px;
@@ -760,7 +754,7 @@ ul {
 .team__name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: inherit;
   margin-bottom: 10px;
@@ -768,7 +762,7 @@ ul {
 
 .team__profession {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
   margin-bottom: 16px;
@@ -1119,8 +1113,8 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   cursor: pointer;
   color: var(--portfolio-button-color);
   border: transparent;

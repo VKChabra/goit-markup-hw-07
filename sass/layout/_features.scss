@@ -13,18 +13,14 @@
 }
 
 .features__titles {
-  font-size: 14px;
-  line-height: 1.15;
-  letter-spacing: 0.03em;
+  @include font(14px, 1.15, 00.03em);
   text-transform: uppercase;
   color: inherit;
   margin-bottom: 10px;
 }
 
 .features__paragraph {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font(14px, 1.71, 00.03em);
   color: var(--main-text-color);
 }
 

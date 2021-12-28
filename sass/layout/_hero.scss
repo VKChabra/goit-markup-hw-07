@@ -18,9 +18,7 @@
   max-width: 696px;
   flex-wrap: wrap;
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
+  @include font(44px, 1.36, 00.06em);
   text-transform: uppercase;
   color: var(--hero-color);
   margin-bottom: 30px;
@@ -34,9 +32,7 @@
     rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
+  @include font(16px, 1.87, 00.06em);
   color: var(--hero-color);
   cursor: pointer;
   border: transparent;

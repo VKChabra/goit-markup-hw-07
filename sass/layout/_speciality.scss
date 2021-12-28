@@ -1,7 +1,5 @@
 .speciality__title {
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  @include font(36px, 1.17, 00.03em);
   color: inherit;
   margin-bottom: 50px;
 }
@@ -28,10 +26,8 @@
   background: rgba(47, 48, 58, 0.8);
   /* outline: 1px solid green; */
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.15;
+  @include font(14px, 1.15, 00.03em);
   text-align: center;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--team-text-color);
   height: 70px;
