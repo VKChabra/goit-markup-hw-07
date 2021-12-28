@@ -72,8 +72,13 @@
   left: 0;
   background-color: var(--accent-color);
   padding: 63px 24px;
-  font-weight: normal;
-  @include font(18px, 1.56, 00.03em);
+  @include font(
+    500,
+    18px,
+    1.56,
+    00.03em,
+    normal
+  );
   height: 100%;
   color: var(--most-text-color);
   transform: translateY(101%);
@@ -89,10 +94,13 @@
 .projects__button {
   @extend %align_list;
   border-radius: 4px;
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
-  @include font(16px, 1.62, 00.03em);
+  @include font(
+    500,
+    16px,
+    1.62,
+    00.03em,
+    normal
+  );
   text-align: center;
   cursor: pointer;
   color: var(--portfolio-button-color);
@@ -109,13 +117,25 @@
 }
 
 .projects-title {
-  @include font(18px, 2, 00.06em);
+  @include font(
+    700,
+    18px,
+    2,
+    00.06em,
+    normal
+  );
   color: inherit;
   margin-bottom: 4px;
 }
 
 .projects__text {
-  @include font(16px, 1.87, 00.03em);
+  @include font(
+    400,
+    16px,
+    1.87,
+    00.03em,
+    normal
+  );
   color: var(--main-text-color);
 }
 

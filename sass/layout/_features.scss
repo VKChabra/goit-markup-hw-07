@@ -13,14 +13,26 @@
 }
 
 .features__titles {
-  @include font(14px, 1.15, 00.03em);
+  @include font(
+    700,
+    14px,
+    1.15,
+    00.03em,
+    normal
+  );
   text-transform: uppercase;
   color: inherit;
   margin-bottom: 10px;
 }
 
 .features__paragraph {
-  @include font(14px, 1.71, 00.03em);
+  @include font(
+    400,
+    14px,
+    1.71,
+    00.03em,
+    normal
+  );
   color: var(--main-text-color);
 }
 

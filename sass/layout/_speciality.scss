@@ -1,5 +1,11 @@
 .speciality__title {
-  @include font(36px, 1.17, 00.03em);
+  @include font(
+    700,
+    36px,
+    1.17,
+    00.03em,
+    normal
+  );
   color: inherit;
   margin-bottom: 50px;
 }
@@ -25,8 +31,13 @@
   bottom: 0;
   background: rgba(47, 48, 58, 0.8);
   /* outline: 1px solid green; */
-  font-weight: 700;
-  @include font(14px, 1.15, 00.03em);
+  @include font(
+    700,
+    14px,
+    1.15,
+    00.03em,
+    normal
+  );
   text-align: center;
   text-transform: uppercase;
   color: var(--team-text-color);

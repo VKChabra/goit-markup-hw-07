@@ -1,8 +1,13 @@
 .agreement__label {
   @extend %align_list;
   justify-content: center;
-  font-weight: normal;
-  @include font(14px, 1.71, 00.03em);
+  @include font(
+    400,
+    14px,
+    1.71,
+    00.03em,
+    normal
+  );
   color: var(--main-text-color);
 }
 

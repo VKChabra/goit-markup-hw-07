@@ -8,11 +8,13 @@
 
 @import "./components/active";
 @import "./components/container";
+@import "./components/logo";
 @import "./components/modal";
 @import "./components/agreement";
 @import "./components/newsletter";
 
-@import "./layout/header";
+@import "./components/header";
+@import "./components/footer";
 
 @import "./layout/hero";
 
@@ -20,7 +22,5 @@
 @import "./layout/speciality";
 @import "./layout/team";
 @import "./layout/clients";
-
-@import "./layout/footer";
 
 @import "./layout/projects";
