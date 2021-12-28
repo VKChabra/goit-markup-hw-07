@@ -1,0 +1,34 @@
+.agreement__label {
+  @extend %align_list;
+  justify-content: center;
+  font-weight: normal;
+  @include font(14px, 1.71, 00.03em);
+  color: var(--main-text-color);
+}
+
+.agreement__decoration {
+  width: 16px;
+  height: 15px;
+  border: 2px solid var(--title-color);
+  border-radius: 2px;
+  margin-right: 7px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.agreement__icon {
+  fill: white;
+}
+
+.agreement__check:checked
+  + .agreement__decoration {
+  background-color: var(--accent-color);
+  border: none;
+}
+
+.agreement__link {
+  margin-left: 4px;
+  text-decoration-line: underline;
+  color: #2196f3;
+}
